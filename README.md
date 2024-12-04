@@ -3,7 +3,7 @@
 
 You can check the problem statement :
 
-[API file](https://github.com/mukulnagar25/E-commerce-Book/raw/main/)
+[Click](https://github.com/mukulnagar25/E-commerce-Book/raw/main/Flipr%20Labs%20Backend%20Assignment.pdf)
 
 # API Project for Online Store
 
