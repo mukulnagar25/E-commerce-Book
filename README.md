@@ -52,3 +52,9 @@ You can import the Postman collection for this API to test the endpoints easily.
 Download the collection from the following link:  
 [Download Postman Collection](https://documenter.getpostman.com/view/40192073/2sAYBa9pSV))
 
+## API FILE
+
+You can check the API file from the link below:
+
+[Download Postman Collection](https://github.com/mukulnagar25/E-commerce-Book/raw/main/api.php)
+
