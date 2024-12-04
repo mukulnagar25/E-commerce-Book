@@ -50,11 +50,16 @@ This is a RESTful API for an online store that allows users to register, log in,
 
 You can import the Postman collection for this API to test the endpoints easily.  
 Download the collection from the following link:  
-[Download Postman Collection](https://documenter.getpostman.com/view/40192073/2sAYBa9pSV))
+[Download Postman Collection](https://documenter.getpostman.com/view/40192073/2sAYBa9pSV)
+
+## Postman Collection json file 
+
+You can access postman exported file from the following link:  
+[Postman collection json file ](https://github.com/mukulnagar25/E-commerce-Book/raw/main/Shop API.postman_collection.json)
 
 ## API FILE
 
 You can check the API file from the link below:
 
-[Download Postman Collection](https://github.com/mukulnagar25/E-commerce-Book/raw/main/api.php)
+[API file](https://github.com/mukulnagar25/E-commerce-Book/raw/main/api.php)
 
