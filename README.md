@@ -56,7 +56,7 @@ Download the collection from the following link:
 
 You can access postman exported file from the following link:  
 
-[JSON](https://github.com/mukul/E-commerce-Book/raw/main/ShopAPI.postman_collection.json)
+[JSON](https://github.com/yourusername/your-repository-name/raw/main/Shop API.postman_collection.json)
 
 ## API FILE
 
