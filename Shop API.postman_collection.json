@@ -1,0 +1,379 @@
+{
+	"info": {
+		"_postman_id": "ebc7910a-c21b-480e-9e7d-488d5067f105",
+		"name": "Shop API",
+		"description": "StartFragmentGET /api.php?endpoint=usersEndFragment",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "40192073"
+	},
+	"item": [
+		{
+			"name": " http://localhost/api.php?endpoint=users",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost/api.php?endpoint=users",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"api.php"
+					],
+					"query": [
+						{
+							"key": "endpoint",
+							"value": "users"
+						}
+					]
+				},
+				"description": "API to show users table"
+			},
+			"response": [
+				{
+					"name": "http://localhost/api.php?endpoint=users",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost/api.php?endpoint=users",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"api.php"
+							],
+							"query": [
+								{
+									"key": "endpoint",
+									"value": "users"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Wed, 04 Dec 2024 09:08:09 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "Apache/2.4.56 (Win64) OpenSSL/1.1.1t PHP/8.0.28"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "PHP/8.0.28"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Access-Control-Allow-Methods",
+							"value": "GET, POST"
+						},
+						{
+							"key": "Content-Length",
+							"value": "683"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5, max=100"
+						},
+						{
+							"key": "Connection",
+							"value": "Keep-Alive"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"id\": \"11\",\n        \"name\": \"mukul\",\n        \"email\": \"mukul@gmail.com\",\n        \"password\": \"$2y$10$bRwQGUrkE73yx123gVu1bOt6EKJ8QSPoAsofCAysMqRvNIGasWZdm\",\n        \"user_type\": \"user\",\n        \"address\": \"Narmadapuram\"\n    },\n    {\n        \"id\": \"12\",\n        \"name\": \"mukul\",\n        \"email\": \"user@gmail.com\",\n        \"password\": \"$2y$10$ZIG8bDlRih0LhM.RzDSIOe7eIzNgv0pWWcMMdYB5fJ6wXwInLsbei\",\n        \"user_type\": \"user\",\n        \"address\": \"Narmadapuram\"\n    },\n    {\n        \"id\": \"13\",\n        \"name\": \"Mukul\",\n        \"email\": \"user1@gmail.com\",\n        \"password\": \"$2y$10$awGDUkCunCrULBtyF3ccZ.LDRLfJQh.Q3yQwBXCqYaRbNKcXtpYse\",\n        \"user_type\": \"user\",\n        \"address\": \"Narmadapuram\"\n    },\n    {\n        \"id\": \"18\",\n        \"name\": \"ved\",\n        \"email\": \"admin@gmail.com\",\n        \"password\": \"$2y$10$pidndRvLSnrty7J.GYq1WeGwhF8N7dGoNM9C8iZd7NDKzV.d5.0bO\",\n        \"user_type\": \"admin\",\n        \"address\": \"Narmadapuram\"\n    }\n]"
+				}
+			]
+		},
+		{
+			"name": " http://localhost/api.php?endpoint=cart",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost/api.php?endpoint=cart",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"api.php"
+					],
+					"query": [
+						{
+							"key": "endpoint",
+							"value": "cart"
+						}
+					]
+				},
+				"description": "API to show cart table"
+			},
+			"response": [
+				{
+					"name": "http://localhost/api.php?endpoint=cart",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost/api.php?endpoint=cart",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"api.php"
+							],
+							"query": [
+								{
+									"key": "endpoint",
+									"value": "cart"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Wed, 04 Dec 2024 09:05:30 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "Apache/2.4.56 (Win64) OpenSSL/1.1.1t PHP/8.0.28"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "PHP/8.0.28"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Access-Control-Allow-Methods",
+							"value": "GET, POST"
+						},
+						{
+							"key": "Content-Length",
+							"value": "93"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5, max=100"
+						},
+						{
+							"key": "Connection",
+							"value": "Keep-Alive"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"id\": \"58\",\n        \"user_id\": \"1\",\n        \"name\": \"Book\",\n        \"price\": \"10\",\n        \"quantity\": \"1\",\n        \"image\": \"shattered.jpg\"\n    }\n]"
+				}
+			]
+		},
+		{
+			"name": " http://localhost/api.php?endpoint=orders",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost/api.php?endpoint=orders",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"api.php"
+					],
+					"query": [
+						{
+							"key": "endpoint",
+							"value": "orders"
+						}
+					]
+				},
+				"description": "API to show order table"
+			},
+			"response": [
+				{
+					"name": "http://localhost/api.php?endpoint=orders",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost/api.php?endpoint=orders",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"api.php"
+							],
+							"query": [
+								{
+									"key": "endpoint",
+									"value": "orders"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Wed, 04 Dec 2024 09:06:02 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "Apache/2.4.56 (Win64) OpenSSL/1.1.1t PHP/8.0.28"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "PHP/8.0.28"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Access-Control-Allow-Methods",
+							"value": "GET, POST"
+						},
+						{
+							"key": "Content-Length",
+							"value": "2"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5, max=100"
+						},
+						{
+							"key": "Connection",
+							"value": "Keep-Alive"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						}
+					],
+					"cookie": [],
+					"body": "[]"
+				}
+			]
+		},
+		{
+			"name": " http://localhost/api.php?endpoint=products",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost/api.php?endpoint=products",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"api.php"
+					],
+					"query": [
+						{
+							"key": "endpoint",
+							"value": "products"
+						}
+					]
+				},
+				"description": "API to show product table"
+			},
+			"response": [
+				{
+					"name": "http://localhost/api.php?endpoint=products",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost/api.php?endpoint=products",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"api.php"
+							],
+							"query": [
+								{
+									"key": "endpoint",
+									"value": "products"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Wed, 04 Dec 2024 09:06:49 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "Apache/2.4.56 (Win64) OpenSSL/1.1.1t PHP/8.0.28"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "PHP/8.0.28"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Access-Control-Allow-Methods",
+							"value": "GET, POST"
+						},
+						{
+							"key": "Content-Length",
+							"value": "399"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5, max=100"
+						},
+						{
+							"key": "Connection",
+							"value": "Keep-Alive"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"id\": \"3\",\n        \"name\": \"Book1\",\n        \"price\": \"100\",\n        \"image\": \"red_queen.jpg\",\n        \"stock\": \"8\"\n    },\n    {\n        \"id\": \"4\",\n        \"name\": \"Book2\",\n        \"price\": \"200\",\n        \"image\": \"shattered.jpg\",\n        \"stock\": \"8\"\n    },\n    {\n        \"id\": \"5\",\n        \"name\": \"Book3\",\n        \"price\": \"300\",\n        \"image\": \"the_happy_lemon.jpg\",\n        \"stock\": \"8\"\n    },\n    {\n        \"id\": \"6\",\n        \"name\": \"Book4\",\n        \"price\": \"400\",\n        \"image\": \"the_world.jpg\",\n        \"stock\": \"10\"\n    },\n    {\n        \"id\": \"9\",\n        \"name\": \"Book 5\",\n        \"price\": \"5000\",\n        \"image\": \"radical_gardening.jpg\",\n        \"stock\": \"50\"\n    }\n]"
+				}
+			]
+		}
+	]
+}
