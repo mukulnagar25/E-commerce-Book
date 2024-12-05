@@ -24,11 +24,11 @@ This is a RESTful API for an online store that allows users to register, log in,
 ### User Endpoints
 
 - **POST `/api/users/register`**: Registers a new user.  
-    - Body: `{ "name": "John", "email": "john@example.com", "password": "password" }`
+   - Body: `{"id":"11","name":"mukul","email":"mukul@gmail.com","password":"$2y$10$bRwQGUrkE73yx123gVu1bOt6EKJ8QSPoAsofCAysMqRvNIGasWZdm","user_type":"user","address":"Narmadapuram"}`
     - Response: User object with details.
 
 - **POST `/api/users/login`**: Logs in a user and returns a session token.  
-    - Body: `{ "email": "john@example.com", "password": "password" }`
+    - Body: `{"id":"58","user_id":"1","name":"Book","price":"10","quantity":"1","image":"shattered.jpg"}`
     - Response: Session token.
 
 - **GET `/api/users`**: Fetches all users (Admin only).
@@ -39,7 +39,7 @@ This is a RESTful API for an online store that allows users to register, log in,
     - Response: Array of product objects.
 
 - **POST `/api/products`**: Adds a new product (Admin only).  
-    - Body: `{ "name": "Product Name", "price": 10, "description": "Product Description" }`
+    - Body: `{"id":"3","name":"Book1","price":"100","image":"red_queen.jpg","stock":"8"}`
     - Response: Product object.
 
 ### Order Endpoints
@@ -69,3 +69,4 @@ You can check the API file from the link below:
 
 [API file](https://github.com/mukulnagar25/E-commerce-Book/raw/main/api.php)
 
+## DEPLOY LINK WILL BE PROVIDED SOON
