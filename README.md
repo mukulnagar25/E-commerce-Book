@@ -70,4 +70,4 @@ You can check the API file from the link below:
 [API file](https://github.com/mukulnagar25/E-commerce-Book/raw/main/api.php)
 
 ## DEPLOY LINK IS BELOW 
-[Click](https://digital-book.rf.gd)
+[Click](https://digital-book.rf.gd/login.php)
